@@ -5,12 +5,14 @@ import { BrowserAnimationsModule }from '@angular/platform-browser/animations'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,

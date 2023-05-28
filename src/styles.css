@@ -1,3 +1,20 @@
 @import "primeng/resources/primeng.css";
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import "primeng/resources/themes/lara-light-blue/theme.css";
+
+*{
+    font-family: 'Hepta Slab', serif;
+    font-size: 50%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #121214;
+    color: white;
+
+    padding: 14rem 13.4rem 14rem 11.1rem;
+}
